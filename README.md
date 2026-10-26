@@ -29,6 +29,7 @@ Keep upstream Hummingbot, API, Gateway and Condor checkouts outside this reposit
 1. [WSL2 installation and execution runbook](docs/production/WSL2_RUNBOOK.md) — folder creation, upstream installer review, API/EMQX setup, model install, Condor integration, key onboarding and verification.
 2. [Canonical Codex prompt sequence](docs/production/SEQUENCED_CODEX_PROMPTS.md) — staged implementation prompts P00–P11, each with an evidence-backed gate.
 3. [Implementation plan](docs/production/IMPLEMENTATION_PLAN.md) — enterprise-grade phased execution and acceptance criteria.
+4. [Tailscale production runbook](docs/production/TAILSCALE_RUNBOOK.md) — private networking, interactive installer settings, MagicDNS, API credentials, remote client verification and exposure checks.
 4. [Model provider matrix](docs/production/MODEL_PROVIDER_MATRIX.md) — Ollama/Qwen3, LM Studio, Claude Code, Gemini CLI, GitHub Copilot CLI, Codex ACP and OpenRouter.
 5. [Connector qualification matrix](docs/connectors/CONNECTOR_MATRIX.md) — CEX/CLOB DEX/Gateway DEX qualification states.
 6. [Credential policy](docs/credentials/KEY_MANAGEMENT.md) — CEX keys, DEX signing keys, API authentication, EMQX and rotation.
@@ -74,6 +75,7 @@ Keep upstream Hummingbot, API, Gateway and Condor checkouts outside this reposit
 
 - Hummingbot installation overview: https://hummingbot.org/installation/
 - Hummingbot API installation: https://hummingbot.org/hummingbot-api/installation/
+- Hummingbot API Tailscale guide: https://hummingbot.org/hummingbot-api/tailscale/
 - Exchange connector catalogue: https://hummingbot.org/exchanges/
 - Hummingbot Client: https://github.com/hummingbot/hummingbot
 - Condor: https://github.com/hummingbot/condor
