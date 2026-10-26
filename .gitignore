@@ -1,0 +1,38 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+wallets/
+*.seed
+*.mnemonic
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local model/runtime and logs
+models/cache/
+ollama/
+logs/
+*.log
+data/private/
+evidence/local-private/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
